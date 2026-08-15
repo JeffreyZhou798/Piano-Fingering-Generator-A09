@@ -7,6 +7,12 @@
 [![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-1.21-purple)](https://onnxruntime.ai/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+## 🚀 Live Demo
+
+**Try It Now:** 👉 https://piano-fingering-generator-a09.vercel.app/
+
+**Source Code:** 👉 https://github.com/JeffreyZhou798/Piano-Fingering-Generator-A09/tree/main
+
 [English](#english) | [中文](#中文) | [日本語](#日本語)
 
 ---
@@ -129,15 +135,17 @@ The `out/` directory can be deployed to any static hosting (Vercel, GitHub Pages
 
 ### 🏗️ Deployment
 
-#### Vercel (Recommended)
+#### Vercel (Recommended) — **Live Demo: https://piano-fingering-generator-a09.vercel.app/**
 
 1. Fork this repository to your GitHub
 2. Go to [Vercel](https://vercel.com) → New Project → Import your repo
 3. **Root Directory**: Select `frontend`
 4. Framework Preset: Next.js (auto-detected)
-5. Build Command: `next build` (default)
-6. Output Directory: `out` (configured in `vercel.json`)
+5. Build Command: `next build` (default, override ON)
+6. Output Directory: leave as **Next.js default** (override OFF — do NOT set it to `out`)
 7. Deploy — done!
+
+> ⚠️ **Important**: Do NOT override the "Output Directory" in Vercel settings. Since `next.config.mjs` uses `output: 'export'`, the static output is auto-detected. Manually setting `outputDirectory` in `vercel.json` or Vercel will trigger a "Routes Manifest Could Not Be Found" error.
 
 #### GitHub Pages
 
@@ -334,15 +342,17 @@ npm run build    # 静态站点输出到 ./out/
 
 ### 🏗️ 部署
 
-#### Vercel（推荐）
+#### Vercel（推荐）— **在线体验：https://piano-fingering-generator-a09.vercel.app/**
 
 1. Fork 本仓库到你的 GitHub
 2. 进入 [Vercel](https://vercel.com) → New Project → 导入仓库
 3. **Root Directory**：选择 `frontend`
 4. Framework Preset：Next.js（自动检测）
-5. Build Command：`next build`（默认）
-6. Output Directory：`out`（已在 `vercel.json` 配置）
+5. Build Command：`next build`（默认，Override 开启）
+6. Output Directory：保持 **Next.js 默认**（Override 关闭，**不要设为 `out`**）
 7. 部署——完成！
+
+> ⚠️ **重要**：不要在 Vercel 设置中手动指定 Output Directory。由于 `next.config.mjs` 使用了 `output: 'export'`，静态输出目录会被自动检测。手动在 `vercel.json` 或 Vercel 面板中设置 `outputDirectory` 会导致 "Routes Manifest Could Not Be Found" 错误。
 
 #### GitHub Pages
 
@@ -421,13 +431,17 @@ npm run build    # 静的サイトを ./out/ に出力
 
 ### 🏗️ デプロイ
 
-#### Vercel（推奨）
+#### Vercel（推奨）— **ライブデモ：https://piano-fingering-generator-a09.vercel.app/**
 
 1. このリポジトリを GitHub にフォーク
 2. [Vercel](https://vercel.com) → New Project → リポジトリをインポート
 3. **Root Directory**：`frontend` を選択
 4. Framework Preset：Next.js（自動検出）
-5. デプロイ — 完了！
+5. Build Command：`next build`（デフォルト、Override ON）
+6. Output Directory：**Next.js デフォルト**のまま（Override OFF、`out` に設定しない）
+7. デプロイ — 完了！
+
+> ⚠️ **重要**：Vercel 設定で Output Directory を手動で指定しないでください。`next.config.mjs` で `output: 'export'` を使用しているため、静的出力ディレクトリは自動検出されます。手動設定すると "Routes Manifest Could Not Be Found" エラーが発生します。
 
 #### GitHub Pages
 

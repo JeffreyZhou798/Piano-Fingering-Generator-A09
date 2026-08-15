@@ -9,7 +9,7 @@
 
 ## 🚀 Live Demo
 
-**Try It Now:** 👉 https://piano-fingering-generator-a09.vercel.app/
+**Try It Now:** 👉 https://piano-fingering-generator-a09.vercel.app/  👉https://foanqkwyv-pianofingering09-51bwv014b.maozi.io/
 
 **Source Code:** 👉 https://github.com/JeffreyZhou798/Piano-Fingering-Generator-A09/tree/main
 
@@ -135,7 +135,7 @@ The `out/` directory can be deployed to any static hosting (Vercel, GitHub Pages
 
 ### 🏗️ Deployment
 
-#### Vercel (Recommended) — **Live Demo: https://piano-fingering-generator-a09.vercel.app/**
+#### Vercel (Recommended) — **Live Demo: 👉https://piano-fingering-generator-a09.vercel.app/ 👉https://foanqkwyv-pianofingering09-51bwv014b.maozi.io/**
 
 1. Fork this repository to your GitHub
 2. Go to [Vercel](https://vercel.com) → New Project → Import your repo

@@ -342,7 +342,7 @@ npm run build    # 静态站点输出到 ./out/
 
 ### 🏗️ 部署
 
-#### Vercel（推荐）— **在线体验：https://piano-fingering-generator-a09.vercel.app/**
+#### Vercel（推荐）— **在线体验：👉https://piano-fingering-generator-a09.vercel.app/ 👉https://foanqkwyv-pianofingering09-51bwv014b.maozi.io/**
 
 1. Fork 本仓库到你的 GitHub
 2. 进入 [Vercel](https://vercel.com) → New Project → 导入仓库
@@ -431,7 +431,7 @@ npm run build    # 静的サイトを ./out/ に出力
 
 ### 🏗️ デプロイ
 
-#### Vercel（推奨）— **ライブデモ：https://piano-fingering-generator-a09.vercel.app/**
+#### Vercel（推奨）— **ライブデモ：👉https://piano-fingering-generator-a09.vercel.app/ 👉https://foanqkwyv-pianofingering09-51bwv014b.maozi.io/**
 
 1. このリポジトリを GitHub にフォーク
 2. [Vercel](https://vercel.com) → New Project → リポジトリをインポート
